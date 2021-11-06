@@ -91,8 +91,8 @@ const Home: NextPage = () => {
                       </Table.Row>
                     </Table.Header>
                     <Table.Body>
-                      {results?.map((res) => (
-                        <Table.Row>
+                      {results?.map((res, index) => (
+                        <Table.Row key={index}>
                           <Table.Cell>
                             <Flag
                               style={{ marginLeft: "30px" }}
