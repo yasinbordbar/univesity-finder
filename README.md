@@ -16,10 +16,10 @@ To start developing the application, run with [npm](https://docs.npmjs.com/cli/i
 
 ```bash
 npm i
-npm start
+npm run dev
 # or
 yarn add
-yarn start
+yarn dev
 ```
 
 This starts the development server on http://localhost:3000.
