@@ -18,7 +18,7 @@ const Home: NextPage = () => {
   const searchUniversities = () => {
     setLoading(true);
 
-    var url = "http://universities.hipolabs.com/search";
+    var url = "https://universities.hipolabs.com/search";
     url += `?name=${input}`;
     axios
       .get(url)
