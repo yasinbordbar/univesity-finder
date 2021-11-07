@@ -8,7 +8,7 @@ A sample app that helps you to find the official webpage of universities in the 
 
 ## Demo
 
-See a live demo here.
+See a live demo [here](https://uni-finder.vercel.app).
 
 ## How to use
 
